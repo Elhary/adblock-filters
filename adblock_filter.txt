@@ -119,6 +119,7 @@
 ||adjust.com^
 ||branch.io^
 
+
 ! Cryptocurrency Mining
 ||coinhive.com^
 ||crypto-loot.com^
