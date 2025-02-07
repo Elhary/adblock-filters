@@ -1,46 +1,200 @@
-! 🚀 Custom Ad & Tracking Blocklist
-! Blocks ads, tracking, and unwanted sites
-! Last updated: 2025-02-06
+! Title: Comprehensive Domain and Ad Blocker
+! Description: Extended blocking rules for domains, ads, trackers, and annoyances
+! Last modified: 2025-02-07
+! Version: 2.0
 
-! 📌 Block Specific Websites
+! Block Gizmodo and related sites
 ||gizmodo.com^
-||buzzfeed.com^
-||forbes.com^
-||businessinsider.com^
-||quora.com^
+||*.gizmodo.com^
+||gizmodo.com.au^
+||gizmodo.co.uk^
+||i.kinja-img.com^
+||kinja.com^
+||kinja-img.com^
 
-! 📌 Block Annoying Popups & Overlays
+! Block YouTube and related
+||youtube.com^
+||*.youtube.com^
+||youtu.be^
+||yt.be^
+||ytimg.com^
+||yt3.ggpht.com^
+||youtube-nocookie.com^
+||youtube.googleapis.com^
+||youtubei.googleapis.com^
+||youtube-ui.l.google.com^
+||s.youtube.com^
+||s2.youtube.com^
+
+! Google Ads and Analytics
+||google-analytics.com^
+||analytics.google.com^
+||doubleclick.net^
+||googleadservices.com^
+||googlesyndication.com^
+||google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
+||google-analytics.com^
+||googlesyndication.com^
+||googleadservices.com^
+||2mdn.net^
+||admob.com^
+||adsense.com^
+
+! Social Media Trackers and Widgets
+||facebook.com^
+||connect.facebook.net^
+||facebook.net^
+||fb.com^
+||fbcdn.net^
+||instagram.com^
+||cdninstagram.com^
+||twitter.com^
+||twimg.com^
+||ads-twitter.com^
+||t.co^
+||pinterest.com^
+||pinimg.com^
+||linkedin.com^
+||linkedin.net^
+||licdn.com^
+||reddit.com^
+||redditmedia.com^
+||redditstatic.com^
+||tiktok.com^
+||tiktokcdn.com^
+||snapchat.com^
+||sc-cdn.net^
+
+! Major Ad Networks
+||adnxs.com^
+||advertising.com^
+||criteo.com^
+||criteo.net^
 ||outbrain.com^
 ||taboola.com^
-||zergnet.com^
-
-! 📌 Block Tracking & Analytics
-||google-analytics.com^
-||doubleclick.net^
-||facebook.com/tr^
-||tiktok.com/analytics^
+||pubmatic.com^
+||rubiconproject.com^
+||indexww.com^
+||casalemedia.com^
+||openx.net^
+||media.net^
+||sharethrough.com^
+||spotxchange.com^
+||teads.tv^
 ||amazon-adsystem.com^
-||adservice.google.com^
+||adform.net^
+||adriver.ru^
+||bidswitch.net^
+||admixer.net^
+||adtech.de^
+||adtech.com^
+||atwola.com^
+||bidtheatre.com^
+||contextweb.com^
+||conversantmedia.com^
 
-! 📌 Block Malware & Phishing Domains
-||bit.ly^
-||tinyurl.com^
-||shorte.st^
-||adf.ly^
-||linkvertise.com^
+! Analytics and Tracking Services
+||mixpanel.com^
+||segment.com^
+||segment.io^
+||hotjar.com^
+||mouseflow.com^
+||crazyegg.com^
+||kissmetrics.com^
+||optimizely.com^
+||fullstory.com^
+||quantserve.com^
+||scorecardresearch.com^
+||comscore.com^
+||adobe.com^
+||omtrdc.net^
+||demdex.net^
+||chartbeat.com^
+||newrelic.com^
+||nr-data.net^
+||appsflyer.com^
+||amplitude.com^
+||adjust.com^
+||branch.io^
 
-! 📌 Block Crypto Mining Scripts
+! Cryptocurrency Mining
 ||coinhive.com^
-||jsecoin.com^
 ||crypto-loot.com^
+||minr.pw^
+||coin-hive.com^
+||jsecoin.com^
+||cryptoloot.pro^
+||webmine.pro^
+||monerominer.rocks^
 
-! 📌 Block Social Media Widgets
-||connect.facebook.net^
-||platform.twitter.com^
-||instagram.com/embed^
+! Common Annoyances
+##.cookie-notice
+##.cookie-banner
+##.gdpr-banner
+##.popup-overlay
+##.newsletter-popup
+##.subscription-overlay
+##.social-share-buttons
+##.floating-share-bar
+##.push-notifications-prompt
+##div[class*="cookie"]
+##div[class*="gdpr"]
+##div[class*="consent"]
+##.ad-container
+##.advertisement
+##div[id*="google_ads"]
+##div[id*="banner"]
+##iframe[src*="doubleclick"]
+##iframe[src*="facebook"]
+##.sticky-banner
+##.top-banner
+##.bottom-banner
+##.sidebar-ad
+##.sponsored-content
+##div[class*="sponsored"]
 
-! 📌 Block Video Ads
-||imasdk.googleapis.com^
-||video-ad-stats.google.com^
-||pubads.g.doubleclick.net^
+! Privacy-Invasive APIs
+||webrtc.org^
+||stun.services.mozilla.com^
+||stun.*.google.com^
 
+! CDNs commonly used for ads
+||cloudfront.net^
+||amazonaws.com^
+||fastly.net^
+||akamaihd.net^
+||cloudflare.com^
+
+! Additional tracking domains
+||gleam.io^
+||intercom.io^
+||zendesk.com^
+||zdassets.com^
+||freshworks.com^
+||drift.com^
+||hubspot.com^
+||hs-scripts.com^
+||pardot.com^
+||marketo.com^
+||marketo.net^
+||salesforce.com^
+||force.com^
+
+! Anti-adblock detection
+#@#.adsbygoogle
+##script:contains(AdBlock)
+##script:contains(blockadblock)
+##.adblock-notice
+##.ad-blocking-notice
+##.ad-blocker-warning
+
+! Generic Rules
+||*/ads/*
+||*/analytics/*
+||*/statistics/*
+||*/tracking/*
+||*/pixel/*
+||*/beacon/*
+||*/telemetry/*
