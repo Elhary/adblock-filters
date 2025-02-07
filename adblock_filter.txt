@@ -1,2 +1,46 @@
+! 🚀 Custom Ad & Tracking Blocklist
+! Blocks ads, tracking, and unwanted sites
+! Last updated: 2025-02-06
+
+! 📌 Block Specific Websites
 ||gizmodo.com^
-||youtube.com^
+||buzzfeed.com^
+||forbes.com^
+||businessinsider.com^
+||quora.com^
+
+! 📌 Block Annoying Popups & Overlays
+||outbrain.com^
+||taboola.com^
+||zergnet.com^
+
+! 📌 Block Tracking & Analytics
+||google-analytics.com^
+||doubleclick.net^
+||facebook.com/tr^
+||tiktok.com/analytics^
+||amazon-adsystem.com^
+||adservice.google.com^
+
+! 📌 Block Malware & Phishing Domains
+||bit.ly^
+||tinyurl.com^
+||shorte.st^
+||adf.ly^
+||linkvertise.com^
+
+! 📌 Block Crypto Mining Scripts
+||coinhive.com^
+||jsecoin.com^
+||crypto-loot.com^
+
+! 📌 Block Social Media Widgets
+||connect.facebook.net^
+||platform.twitter.com^
+||instagram.com/embed^
+
+! 📌 Block Video Ads
+||imasdk.googleapis.com^
+||video-ad-stats.google.com^
+||pubads.g.doubleclick.net^
+
