@@ -6,20 +6,20 @@
 
 
 
-! Speedtest.net ad filters
-www.speedtest.net##.pure-u-custom-ad-skyscraperu-c
-www.speedtest.net##.ads-column
-www.speedtest.net##[data-ad-placeholder]
-www.speedtest.net##.a-container
-www.speedtest.net##.dfp-container
-www.speedtest.net##.pure-u-custom-ad-rectangle
-www.speedtest.net##.ad-free-prompt-modal
-www.speedtest.net##.ad-free-top-corner-link
 
-
-
-
-
+||scripts.opti-digital.com/assets/630/logo.svg
+||99c7a58373fe607929a581064750998d.safeframe.googlesyndication.com/safeframe/1-0-41/html/container.html
+##.text-center.min-h-\[616px\]
+##.dark\:bg-neutral-800.bg-neutral-100.text-center.items-center.justify-center.flex.lg\:min-h-\[256px\] > .optidigital-wrapper-div
+##.my-8.print\:md\:hidden.md\:block.hidden.banner
+##.widget_keleops-ad.keleops-ad-4.widget > .text-center.min-h-\[1000px\] > .sticky-in > .optidigital-wrapper-div
+##widget.keleops-ad-4.widget_keleops-ad
+##div.od-background.od-wrapper-both.od-wrapper:nth-of-type(1)
+##div.od-background.od-wrapper-both.od-wrapper:nth-of-type(2)
+##div.od-background.od-wrapper-both.od-wrapper:nth-of-type(3)
+##div.od-background.od-wrapper-both.od-wrapper:nth-of-type(4)
+##div.od-background.od-wrapper-both.od-wrapper:nth-of-type(5)
+##div.od-background.od-wrapper-both.od-wrapper:nth-of-type(6)
 
 
 
