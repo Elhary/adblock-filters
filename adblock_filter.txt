@@ -3,6 +3,21 @@
 ! Last modified: 2025-02-07
 ! Version: 2.0
 
+
+
+
+speedtest.net##[data-ad-placeholder]
+speedtest.net##.dfp-container
+speedtest.net##iframe[src*="googlesyndication.com"]
+
+
+
+
+
+
+
+
+
 ! Block Gizmodo and related sites
 ||gizmodo.com^
 ||*.gizmodo.com^
