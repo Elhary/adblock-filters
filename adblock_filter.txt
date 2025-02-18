@@ -6,10 +6,15 @@
 
 
 
-speedtest.net##[data-ad-placeholder]
-speedtest.net##.dfp-container
-speedtest.net##iframe[src*="googlesyndication.com"]
-
+! Speedtest.net ad filters
+www.speedtest.net##.pure-u-custom-ad-skyscraperu-c
+www.speedtest.net##.ads-column
+www.speedtest.net##[data-ad-placeholder]
+www.speedtest.net##.a-container
+www.speedtest.net##.dfp-container
+www.speedtest.net##.pure-u-custom-ad-rectangle
+www.speedtest.net##.ad-free-prompt-modal
+www.speedtest.net##.ad-free-top-corner-link
 
 
 
